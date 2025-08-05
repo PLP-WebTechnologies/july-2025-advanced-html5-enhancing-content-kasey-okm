@@ -9,7 +9,7 @@ A personal portfolio project demonstrating advanced HTML5 content structuring, a
 - **Accessible Navigation:** Keyboard-accessible navigation with `accesskey` attributes and ARIA labels.
 - **Advanced HTML5 Form:**  
   - Multiple input types (text, email, tel, select, textarea, radio, checkbox)
-  - Grouped fields with `<fieldset>` and `<legend>`
+
   - Native HTML5 validation (`required`, `pattern`, `minlength`, `maxlength`, `readonly`, etc.)
   - Accessible labels for all form fields
 
@@ -19,11 +19,11 @@ A personal portfolio project demonstrating advanced HTML5 content structuring, a
    ```sh
    git clone https://github.com/PLP-WebTechnologies/july-2025-advanced-html5-enhancing-content-kasey-okm.git
    ```
-2. **Open `index.html` in your browser** to view the portfolio.
+2. **Open `enhanced-form.html` in your browser** to view the portfolio.
 
 ## Project Structure
 
-- `index.html` — Main HTML5 portfolio page
+- `enhanced-form.html` — Main HTML5 portfolio page
 - `img/` — Images used in the portfolio
 - `audio/` — Audio files for media section
 - `Kasey-CV.pdf` — Downloadable CV

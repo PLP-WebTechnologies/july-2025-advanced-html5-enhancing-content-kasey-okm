@@ -57,7 +57,7 @@
 
     <section id="projects" aria-labelledby="projects-heading">
       <h2 id="projects-heading">Projects</h2>
-      <table>
+      <table border="1">
         <caption>Recent Projects</caption>
         <thead>
           <tr>
@@ -89,7 +89,7 @@
     <section id="media" aria-labelledby="media-heading">
       <h2 id="media-heading">Media</h2>
       <figure>
-        <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg" alt="Kasey smiling at a laptop" width="300" loading="lazy">
+        <img src="img/my coding image.jpg" alt="Kasey smiling at a laptop" width="300" loading="lazy">
         <figcaption>My workspace where I code and create.</figcaption>
       </figure>
       <figure>
@@ -108,9 +108,7 @@
         Phone: <a href="tel:+1234567890">+1 (234) 567-890</a>
       </address>
       <form aria-label="Contact form" autocomplete="on">
-        <fieldset>
-          <legend>Your Details</legend>
-          <p>
+        <p>
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required minlength="2" maxlength="40" placeholder="Your full name" autocomplete="name">
           </p>
@@ -122,9 +120,7 @@
             <label for="phone">Phone:</label><br>
             <input type="tel" id="phone" name="phone" pattern="^\+?\d{10,15}$" placeholder="+1234567890" autocomplete="tel">
           </p>
-        </fieldset>
-        <fieldset>
-          <legend>Message Details</legend>
+
           <p>
             <label for="subject">Subject:</label><br>
             <input type="text" id="subject" name="subject" required maxlength="60" placeholder="Subject of your message">
@@ -133,9 +129,7 @@
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="4" required minlength="10" maxlength="500" placeholder="Type your message here"></textarea>
           </p>
-        </fieldset>
-        <fieldset>
-          <legend>Additional Info</legend>
+
           <p>
             <label for="contact-method">Preferred Contact Method:</label><br>
             <select id="contact-method" name="contact-method" required>
@@ -162,7 +156,7 @@
             <label for="referrer">Referrer Code:</label><br>
             <input type="text" id="referrer" name="referrer" pattern="[A-Za-z0-9]{6}" placeholder="e.g. ABC123" readonly value="ABC123">
           </p>
-        </fieldset>
+    
         <p>
           <button type="submit">Send Message</button>
         </p>
